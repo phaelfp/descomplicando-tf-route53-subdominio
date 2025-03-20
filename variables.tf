@@ -17,9 +17,3 @@ variable "lb_zone_id" {
   description = "ID da zona do Load Balancer."
   type        = string
 }
-
-variable "aws_region" {
-  description = "Região da AWS"
-  type        = string
-  default     = "us-east-1"
-}
